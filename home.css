@@ -274,4 +274,30 @@ i{
     color: #2d3958; 
 }
 
+.down-side{
+    width: 100%;
+    height: 50vh;
+    background-color: #DAE6E9;
+    border-radius: 60px 60px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.down-side h1{
+    color: #2d3958;
+}
+.down-side button{
+    margin-top: 4%;
+    width: 140px;
+    height: 50px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    padding: 5px;
+}
 
