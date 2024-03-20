@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.header{
+max-width: 100%;
+color: #fff;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+      padding: 0 5%;
+    }
+  
+    .header {
+      /* Remove background picture for small screens */
+      background: none !important; /* Adding !important */
+      /* Update other header styles as needed */
+    }
+    .the-image img {
+        display: none;
+    
+    }
+    /* Adjust other elements as needed */
+  }
+ 
+  
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home{
+    padding: 10px 5%;
+    max-width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.mcontainer{
+    width: 100%;
+    height: fit-content;
+    background-color: #F8FAFC;
+}
+
+
+
+.con-heading h2{
+    color:#2D3958 ;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+
+}
+
+.con-heading p{
+    
+      text-align: center;
+      color: rgb(123, 136, 168);
+      padding-top: 30px;
+      padding-bottom: 20px;
+      font-size: medium;
+      line-height: 1.5;
+      
+       
+    
+}
+ul{
+    list-style: none;
+
+
+
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+ul li ul.dropdown li a{
+  color: black;
+}
+ul li ul.dropdown li{
+    display: block;
+
+
+}
+ul li ul.dropdown{
+    width: 100%;
+    position: absolute;
+    display: none;
+}
+ul li:hover ul.dropdown{
+    display: block;
+    background-color: #fff;
+    width: 250px;
+    border-radius: 10px;
+}
+.logo{
+    width: 200px;
+}
+.demmo{
+    background-color: red;
+    color: #fff;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+.the-image img{
+    max-width: 450px;
+}
+
+.text1 {
+    text-align: center;
+    color: black;
+    padding-top:110px;
+    color: #1591a1;
+}
+.text1 h1{
+    color: #0f6873;
+}
+.text1 p {
+    padding-top: 40px;
+}
+.text1 img {
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.card1 {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    margin-top: 20px;
+}
+
+.card-content1,
+.card-content1 {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 50% 70px;
+    border-top-right-radius: 50% 70px;
+
+}
+.card-content1 h3,
+.card-content1 h3 {
+    text-decoration: underline;
+    white-space: nowrap;
+}
+.card-content1 h3,
+.card-content1 p,
+.card-content1 h3,
+.card-content1 p {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%; /* Adjust as needed */
+    margin: 0 2.5%; /* Adjust as needed */
+    color: black;
+}
+.card-content1,
+.card-content1 {
+    overflow: auto; /* Prevent margin collapsing */
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-content1 p,
+.card-content1 p {
+    margin-top: 10px; /* Adjust as needed */
+    white-space: nowrap;
+}
+.card-container21 {
+    flex: 0 0 auto; /* Use auto width for each column */
+    max-width: calc(33.33% - 20px); /* Limit the width of each card */
+    margin-right: 20px; /* Add space between the columns */
+    margin-bottom: 20px; /* Add space between the rows */
+
+}
+
+
+.card21 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     
+}
+
+.card21 h1,
+.card21 p {
+    margin: 0; /* Remove default margin */
+    color: black;
+}
+.content21 {
+    text-align: center; /* Center the content horizontally */
+    position: absolute; /* Position the element */
+    top: 1700px; /* Align the top of the element to the vertical center */
+    right: 0; /* Position the element to the right */
+    transform: translate(0, -50%); /* Translate the element back up by half of its own height to center vertically */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8; /* Example background color */
+    margin-right: 200px;
+    color:  #0f6873;
+
+}
+
+.down-side{
+    width: 100%;
+    height: 50vh;
+    background-color: #DAE6E9;
+    border-radius: 60px 60px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.down-side h1{
+    color: #2d3958;
+}
+.down-side button{
+    margin-top: 4%;
+    width: 140px;
+    height: 50px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+/*--------request demo section------*/
+#request{
+    padding: 10px 5%;
+width: 100%;
+height: 70vh;
+background-color: #353535;
+display: flex;
+justify-content: space-between;
+color: #fff;
+}
+.left-side p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+.left-side button{
+background-color: #353535;
+width: 160px;
+height: 55px;
+border: none;
+font-size: 16px;
+box-shadow: 4px 4px rgba(0,0,0,.3), -4px -4px rgba(0,0,0,.3);
+color: rgb(186, 186, 186);
+border-radius: 8px;
+margin: 10px;
+
+}
+.right-side{
+    display: flex;
+    font-size: 15px;
+    margin-top: 5%;
+}
+.right-side div{
+    margin: 35px;
+}
+.right-side h4{
+    margin-bottom: 20%;
+}
+.right-side p{
+    line-height: 34px;
+    color: rgb(143, 140, 140);
+}
+.horizontal-line{
+    width: 1px;
+    background-color: darkgray;
+    height: 60vh;
+    margin-top: 30px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    width: 100%;
+    background-color: #353535;
+    color: white;
+    height: 200px;
+}
+.icons i{
+    margin: 10px;
+    color: black;
+    padding: 5px;
+}
+hr{
+    border: 0.01px solid;
+    color: rgb(75, 75, 75);
+}
+
+.map-form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form1{
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    margin-left: 20px;
+
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 90px 0;
+
+}
+
+.box1 ,.box2, .box3{
+    background-color:#fff;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: 500px;
+    padding: 35px;
+    width: 350px;
+    text-align: center;
+}
