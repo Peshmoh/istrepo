@@ -98,3 +98,16 @@ ul li:hover ul.dropdown{
     border-radius: 5px;
     font-family: sans-serif;
 }
+
+.first-cards{
+    background-color:#6EC1E4;; 
+}
+
+.human-resource{
+    padding: 30px;
+
+}
+.left-image{
+   margin-left: 850px;
+   padding-bottom: 350px;
+}
